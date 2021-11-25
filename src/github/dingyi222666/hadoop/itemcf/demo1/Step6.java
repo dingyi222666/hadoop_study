@@ -22,6 +22,7 @@ import github.dingyi222666.hadoop.service.HadoopService.HadoopTask;
 
 public class Step6 {
 
+	
 	public static void main() throws Exception {
 		runTask();
 	}

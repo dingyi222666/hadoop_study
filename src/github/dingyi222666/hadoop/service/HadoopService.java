@@ -171,7 +171,11 @@ public class HadoopService {
 
 		protected Job newJob(Configuration conf, String jobName) throws Exception {
 			Job job = Job.getInstance(conf, jobName);
+			//job.setJar("/home/dingyi/Desktop/out.jar");
 			job.setJarByClass(runClass);
+			
+			
+			
 			job.setMapperClass(mapperClass);
 
 			job.setMapOutputKeyClass(mapOutputKeyClass);

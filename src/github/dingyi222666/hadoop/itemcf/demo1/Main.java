@@ -1,6 +1,6 @@
 package github.dingyi222666.hadoop.itemcf.demo1;
 
-
+import github.dingyi222666.hadoop.itemcf.demo1.*;
 
 public class Main {
 
